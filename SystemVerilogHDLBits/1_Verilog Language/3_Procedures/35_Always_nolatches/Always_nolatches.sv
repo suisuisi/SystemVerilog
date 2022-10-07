@@ -12,14 +12,18 @@ module top_module (
         right = 1'b0;
         up = 1'b0;
         unique0 case(scancode)
-            16'he06b:left = 1'b1;
-
-            16'he072:down = 1'b1;
-
-            16'he074:right = 1'b1;
-
-            16'he075:up = 1'b1;
-
+            16'he06b:begin
+                left = 1'b1;
+            end
+            16'he072:begin
+                down = 1'b1;
+            end
+            16'he074:begin
+                right = 1'b1;
+            end
+            16'he075:begin
+                up = 1'b1;
+            end
             default: ;
         endcase
     end
