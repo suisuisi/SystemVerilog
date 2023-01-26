@@ -10,4 +10,4 @@ HDLBits 是一组小型电路设计习题集，使用 Verilog/SystemVerilog 硬�
 
 本仓库主要是HDLBits的SystemVerilog实现
 
-![image](https://user-images.githubusercontent.com/20726393/214922254-aa2a97f6-c499-4110-bf0d-853cad1a2516.png)
+![image](https://github.com/suisuisi/SystemVerilog/blob/main/SystemVerilogHDLBits/%E5%B0%81%E9%9D%A2.jpg?raw=true)
